@@ -10,8 +10,29 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
-    return res.send('<h2>Welcome to Express App<h2>');
+    return res.sendFile(__dirname, "index.html",)
+  })
+  
+app.get('/reserve', (req, res) => {
+  return res.sendFile(__dirname, "reserve.html",)
 })
+
+app.get('/tables', (req, res) => {
+  return res.sendFile(__dirname, "tables.html",)
+})
+
+app.get('/api', (req, res) => {
+  return res.sendFile(__dirname, "index.html",)
+})
+
+app.get('/api/tables', (req, res) => {
+  return res.json();
+})
+
+app.get('/api/waitlist', (req, res) => {
+  return res.json();
+})
+
 
 const Port = process.env.PORT || 3000;
 const IP = process.env.IP || '127.0.0.1';

@@ -19,6 +19,6 @@ app.listen(Port, IP, (err) => {
     if (err) {
        console.log(err)
    } else {
-       console.log(`Server is listening at ${IP}:${Port}`);
+       console.log(`Server is listening at http://${IP}:${Port}`);
     }
 });

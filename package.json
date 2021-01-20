@@ -1,0 +1,25 @@
+{
+  "name": "reservations",
+  "version": "0.1.0",
+  "description": "A class activity to create a restaurant reservation system.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsaulrodriguez/reservations.git"
+  },
+  "keywords": [
+    "keeper",
+    "notes",
+    "express",
+    "nodejs"
+  ],
+  "author": "David Rodriguez",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/davidsaulrodriguez/reservations/issues"
+  },
+  "homepage": "https://github.com/davidsaulrodriguez/reservations#readme"
+}
